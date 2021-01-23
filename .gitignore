@@ -1,0 +1,11 @@
+.DS_Store
+.sass-cache
+.byebug_history
+.env
+vendor/
+tmp/
+public/*.css
+public/*.map
+public/*.js
+data/*
+node_modules/
