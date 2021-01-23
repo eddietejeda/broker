@@ -1,7 +1,7 @@
 # Brokerage
-I like coding in Ruby more than I like manipulating spreadsheets. So I created a command line interface to view Schwabb financial data.
+I like coding in Ruby more than I like manipulating spreadsheets. So I created a command line interface to view Schwab financial data. You can download your data from [here](https://client.schwab.com/Apps/accounts/transactionhistory/#/).
 
-The REPL is the UI. I want to stay in the Ruby ecosystem when I manipulate the data, to to use the methods, you will need to use. The code is not optimized for performance. Since the primary way I use this code is in the command line, I don't mind if it takes a second to load. Although, I developed the code with the mindset that if I optimize the backend, most of the code would still work.
+For this code, the REPL is the UI. I want to stay in the Ruby ecosystem when I manipulate the data, so to use the methods, you will need to be familiar with IRB. The code is not optimized for performance. Since the primary way I use this code is in the command line, I don't mind if it takes a second to load. Although, I developed the code with the mindset that if I optimize the backend, most of the code would still work.
 
 WARNING: This is just an experiment and not fully tested. Do not trust results.
 
@@ -21,8 +21,13 @@ When in IRB, you can run commands like this:
 
 Note: if you run the command directly, you will get Array or Hash response. If you add .print to the method, it will format the display in IRB. For example 
 
-`holding("AAPL")` returns an array
-`holding("AAPL").print` prints the result in a table format.
+`holding("NVDA")` returns an array
+
+`holding("NVDA").print` prints the result in a table format.
+
+![Screenshot](screenshot.png)
+
+Here, the return is calculated using the holding current value (plus additional shares you've bought), instead of the market price.
 
 # Public Methods
 
