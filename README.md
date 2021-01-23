@@ -25,7 +25,7 @@ Note: if you run the command directly, you will get Array or Hash response. If y
 
 `holding("NVDA").print` prints the result in a table format.
 
-![Screenshot](screenshot.png | width=100)
+ <img src="https://raw.githubusercontent.com/eddietejeda/broker/master/screenshot.png" width="100">
 
 Here, the return is calculated using the holding current value (plus additional shares you've bought), instead of the market price.
 
