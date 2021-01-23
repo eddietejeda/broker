@@ -8,6 +8,8 @@ WARNING: This is just an experiment and not fully tested. Do not trust results.
 # Installation
 
 ```
+git clone https://github.com/eddietejeda/broker
+cd broker
 bundle install
 bundle exec bin/broker
 ```
